@@ -6,25 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.midori.fragmentlearn.MainActivity"
     android:orientation="horizontal">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-        <fragment
-            android:id="@+id/top_fragment"
-            android:name="com.example.midori.fragmentlearn.TopFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-        <fragment
-            android:id="@+id/bottom_fragment"
-            android:name="com.example.midori.fragmentlearn.BottomFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </LinearLayout>
+
 
 </LinearLayout>

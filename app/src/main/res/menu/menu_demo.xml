@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:title="@string/btn_setting"
-        android:id="@+id/btn_setting"
-        app:showAsAction="always"
-        android:icon="@drawable/ic_launcher_background">
-    </item>
-    <item
-        android:title="@string/btn_share"
-        android:id="@+id/btn_share"
-        android:icon="@mipmap/ic_launcher"
-        app:showAsAction="always">
-    </item>
-    <item
-        android:title="@string/btn_search"
-        android:id="@+id/btn_search"
-        android:orderInCategory="3">
-    </item>
-    <item
-        android:title="Exit"
-        android:id="@+id/btn_exit"
-        android:orderInCategory="2">
-    </item>
+
 </menu>

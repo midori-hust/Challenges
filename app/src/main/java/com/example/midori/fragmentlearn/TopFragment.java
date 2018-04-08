@@ -31,14 +31,7 @@ public class TopFragment extends Fragment{
         edt2 = (EditText)view.findViewById(R.id.edt2);
         Button applyButton = (Button)view.findViewById(R.id.btn_submit_from_top);
 
-        applyButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                applyText();
-            }
 
-
-        });
         return view;
     }
     @Override
@@ -47,13 +40,5 @@ public class TopFragment extends Fragment{
         Log.d("test log","in here");
             this.mainActivity = (MainActivity)activity;
     }
-    private void applyText() {
-        String top_text = this.edt1.getText().toString();
-        String bottom_text = this.edt2.getText().toString();
 
-        Log.d("top ","hhhhh");
-        Log.d("top ",top_text);
-        Log.d("bottom ",bottom_text);
-        this.mainActivity.showText(top_text,bottom_text);
-    }
 }
